@@ -1,0 +1,234 @@
+body {
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    
+}
+
+.imglogo{
+    position: static;
+    border-radius: 100px;
+    margin-left: 10px;
+    top: 10px;
+    width: 79.95%;
+    height: 60%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    /* Cabeçalho da página */
+    width: 100%;
+    background-color: #051D3D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    height: 100px;
+}
+
+.headercontainer {
+    /* Container principal */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.matricule {
+    /* Elemento que antecede o nome "matricule-se" */
+    background-color: #3fb4b0;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-align:start;
+    white-space: nowrap;
+    transition: transform 0.3s ease;
+}
+
+.matricule:hover{
+    transform: scale(0.90);
+    opacity: 0.9;
+}
+
+.container_logo {
+    /* Container do logotipo */
+    padding: 20px 20px;
+    width: 30%;
+    border-radius: 70px;
+}
+
+.container_search {
+    /* Container da barra de pesquisa */
+    width: 500px;
+    margin-left: -15px;
+    border: 1px solid rgba(105, 129, 135, 0.5);
+    border-radius: 24px;
+    padding: 1em;
+    background: rgba(105, 129, 135, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #f3f3f3;
+}
+
+.container_search::placeholder {
+    /* Placeholder da barra de pesquisa */
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    background: url("../img/lupa.svg") no-repeat;
+    background-position: 3em;
+}
+
+.option {
+    /* Opções do menu */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.option_item {
+    /* Item do menu */
+    margin-right: 50px;
+    transition: transform 0.3s ease
+}
+
+.option_link {
+    /* Link do menu */
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.option_item:hover{
+    transform: scale(0.95);
+}
+
+.option_link:hover {
+    /* Link do menu (hover) */
+    color: #d3cfcf;
+}
+
+
+
+/*body*/
+
+#h2 {
+    position: relative;
+    color: #120A0C;
+    font-size: 40px;
+    margin-left: 4rem;
+    padding-top: 2.5rem;
+    opacity: 0.8;
+    font-weight: bold;
+    top: 3%;
+}
+
+
+.curso {
+    background-color: #fff;
+    border: 2 solid #000;
+    position: static;
+    height: 54rem;
+    width: 98%;
+    margin-top: 2%;
+    margin-left: 1.5rem;
+    margin-bottom: 5%;
+    box-shadow: 1px 1px 3px 3px #0000003F;
+}
+
+.container{
+    background-color: #eeeeee;
+    width: 380px;
+    height: 145px;
+    position: static;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    color: rgba(18, 10, 12, 1);
+    width: 200px;
+    position: relative;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 15px;
+    bottom: 50%;
+    top: 4%;
+    right: 6%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#curso1{
+    position: relative;
+    left: 3%;
+    top: 10%;
+}
+
+#curso2{
+    position: relative;
+    left: 37%;
+    bottom: 6.8%;
+}
+
+#curso3{
+    position: relative;
+    left: 71%;
+    bottom: 23.6%;
+}
+
+#curso4{
+    position: relative;
+    left: 3%;
+    bottom: 10%;
+}
+
+#curso5{
+    position: relative;
+    left: 37%;
+    bottom: 26.8%;
+}
+
+#curso6{
+    position: relative;
+    left: 71%;
+    bottom: 43.6%
+}
+
+#curso7{
+    position: relative;
+    left: 3%;
+    bottom: 32%;
+}
+
+#curso8{
+    position:relative;
+    left: 37%;
+    bottom: 48.8%;
+}
+
+.img{
+    position: relative;
+    width: 20%;
+    left: 10%;
+}
+
+
+/*footer*/
+
+
+footer {
+    position: relative;
+    background-color: #051D3D;
+}
+
+.wave{
+    position: absolute;
+}
+
+
+ 

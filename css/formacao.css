@@ -1,0 +1,201 @@
+html {
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.imglogo{
+    position: static;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-top: 1.8px;
+    width: 79.95%;
+    height: 60%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    /* Cabeçalho da página */
+    width: 100%;
+    background-color: #051D3D;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    /* Container principal */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.matricule {
+    /* Elemento que antecede o nome "matricule-se" */
+    background-color: #3fb4b0;
+    color: #ffffff;
+    padding: 11px 30px;
+    border-radius: 50px;
+    text-align:start;
+    white-space: nowrap;
+    transition: transform 0.3s ease;
+}
+
+.matricule:hover{
+    transform: scale(0.90);
+    opacity: 0.9;
+}
+
+.container_logo {
+    /* Container do logotipo */
+    padding: 20px 20px;
+    width: 30%;
+    border-radius: 70px;
+}
+
+.container_search {
+    /* Container da barra de pesquisa */
+    width: 500px;
+    margin-left: -15px;
+    border: 1px solid rgba(105, 129, 135, 0.5);
+    border-radius: 24px;
+    padding: 1em;
+    background: rgba(105, 129, 135, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #f3f3f3;
+}
+
+.container_search::placeholder {
+    /* Placeholder da barra de pesquisa */
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    background: url("../img/lupa.svg") no-repeat;
+    background-position: 3em;
+}
+
+.option {
+    /* Opções do menu */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.option_item {
+    /* Item do menu */
+    margin-right: 50px;
+    transition: transform 0.3s ease;
+}
+.option_item:hover{
+    transform: scale(0.95);
+}
+
+.option_link {
+    /* Link do menu */
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.option_link:hover {
+    /* Link do menu (hover) */
+    color: #d3cfcf;
+}
+
+main {
+    background-color: white;
+}
+
+.widget_title {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 140px;
+    margin-top: 30px;
+}
+article .news_formaçao{
+    display: flex;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+article .formaçao {
+    background-color: rgba(105, 129, 135, 0.5);
+    width: 500px;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+article .cursos{
+    background-color: rgba(105, 129, 135, 0.5);
+    width: 700px;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+article .banner1{
+    display: flex;
+    margin-left: 140px;
+    margin-top: 20px;
+
+}
+article .formaçao1{
+    background-color: #12394C;
+    width: 500px;
+    height: 120px;
+    color: #FFFFFF;
+    display: flex;
+    text-align: center;
+    padding: 5px;
+}
+article .formaçao_text{
+    margin-top: 35px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+article .formaçao_text2{
+    margin-top: 5px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+.img_formaçao{
+   width: 95px;
+   height: 95px;
+   padding: 10px;
+}
+article a{
+    color: #FFFFFF;
+}
+article .curso1{
+    border: 2px solid #69818780;
+    margin-left:30px ;
+    width: 700px;
+    height: 120px;
+    padding: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.form1, .form2, .form3{
+    padding: 4px;
+    margin-left: 20px;
+    color: #120A0CE5;
+}
+
+.form1{
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #051D3D;
+    margin-top: 20px
+}
+.img-1 {
+    position: absolute;
+}
